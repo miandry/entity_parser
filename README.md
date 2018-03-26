@@ -1,5 +1,5 @@
 # Drupal 8 Module entity_parser
-Drupal 8 Module for convert Entity (Node,Taxonomy term and User) object complex strcuture to Simple Array or a Custom Type .
+Drupal 8 Module for convert Entity (Node,Taxonomy term and User) object complex structure to Simple Array or a Custom Type .
 This module can support paragraphs <a target='_blank' href='https://www.drupal.org/project/paragraphs'>click</a> type field and can Extend to another Type Fields 
  
 ## Install 
