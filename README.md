@@ -7,8 +7,7 @@ Drupal 8 Module for convert Entity object to Simple Array ,for examp
 
 - Create a Class for example EntityParserDemo.php extend  Drupal\entity_parser\EntityParser
 <pre>
-<?php
- namespace  Drupal\entity_parser_demo;
+    namespace  Drupal\entity_parser_demo;
     use Drupal\entity_parser\EntityParser;
 
     class EntityParserDemo extend EntityParser{
