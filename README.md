@@ -21,7 +21,6 @@ Login in to see Kint Devel module , username : admin / password : admin <a targe
 <pre>
     namespace  Drupal\entity_parser_demo;
     use Drupal\entity_parser\EntityParser;
-
     class EntityParserDemo extend EntityParser{
        //****ADD HERE YOUR HOOK CUSTOM FUNCTION  of FIELDS BY NAME OR BY FIELD TYPE *****//
        
@@ -35,7 +34,6 @@ Login in to see Kint Devel module , username : admin / password : admin <a targe
          $changed_date = date("F j, Y, g:i a", array_shift($item));
          return  $changed_date ;
        }
-
     }
 </pre>    
 ## How to use 
