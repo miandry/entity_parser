@@ -1,5 +1,7 @@
 # Drupal 8 Module entity_parser
 Drupal 8 Module for convert Entity (Node,Taxonomy term and User) object to Simple Array or a Custom Type .
+This module can support paragraphs <a target='_blank' href='https://www.drupal.org/project/paragraphs'>click</a> type field and can Extend to another Type Fields 
+
 ## Install 
  - git clone https://github.com/miandry/entity_parser.git 
  - Enable module and That all !!
@@ -21,7 +23,8 @@ Drupal 8 Module for convert Entity (Node,Taxonomy term and User) object to Simpl
     use Drupal\entity_parser\EntityParser;
 
     class EntityParserDemo extend EntityParser{
-
+       //****ADD HERE YOUR HOOK CUSTOM  of FIELDS BY NAME OR BY FIELD TYPE *****//
+       
        //custom field image type by ALIAS = front
        function front_image_file($entity, $field) {
          return parent::image_file($entity, $field, 'medium');
