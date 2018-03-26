@@ -4,7 +4,7 @@ This module can support paragraphs <a target='_blank' href='https://www.drupal.o
  
 ## Install 
  - git clone https://github.com/miandry/entity_parser.git 
- - Enable module and That all !!
+ - Enable module and That's all !!
  
 ## Example Simple
 <pre>
