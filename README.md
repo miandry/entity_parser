@@ -14,7 +14,7 @@ This module can support paragraphs <a target='_blank' href='https://www.drupal.o
     $node_array = $parser->entity_parser_load($node); 
 </pre> 
 ## Demo 
-
+This is show a Demo , username : admin / password : admin <a target='_blank' href='http://demo.e-roso.net/entity_parser_demo/demo' > Here </a>
 ## How to implement in your drupal project
 
 - Create a Class for example EntityParserDemo.php extend  Drupal\entity_parser\EntityParser
