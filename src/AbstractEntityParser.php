@@ -244,13 +244,15 @@ class AbstractEntityParser {
       foreach ($images as $key => $image) {
         $file = File::load($image['target_id']);
         if (is_object($file)) {
-          $img_result = $image;
+          $img = $image;
           if ($style) {
-            $img_result['image'] = ImageStyle::load($style)
+            $img['image'] = ImageStyle::load($style)
               ->buildUrl($file->getFileUri());
           }
-          $img_result['uri'] = $file->getFileUri();
+          $img['uri'] = $file->getFileUri();
+          $img_result[]= $img ;
         }
+
       }
     }
     return $img_result;
@@ -399,5 +401,6 @@ class AbstractEntityParser {
   public function password($entity, $field){
     return  $entity->get($field)->getValue();
   }
+
 
 }
