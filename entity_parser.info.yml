@@ -1,0 +1,5 @@
+name: 'entity_parser'
+type: module
+description: 'Change Entity format to array , json ,...'
+core: 8.x
+package: 'Custom'
